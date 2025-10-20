@@ -10,7 +10,6 @@ import locale
 import threading
 import os
 
-# Tenta configurar o locale para português do Brasil de forma robusta
 locales_para_tentar = ['pt-BR', 'pt_BR.utf8', 'Portuguese_Brazil', 'Portuguese']
 for loc in locales_para_tentar:
     try:
